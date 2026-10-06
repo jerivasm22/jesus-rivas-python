@@ -22,21 +22,21 @@ print(f"Hi, {name}! You are approximately {age} years old.")
 
 number_one = float(input("Enter the firt number: "))
 number_two = float(input("Enter the second number: "))
-multiply = float(number_one * number_two)
+multiply = number_one * number_two
 print(f"{number_one} × {number_two} = {multiply:.1f}")
 
 #Section 4
 
 item = "Keyboard Deluxe"
-price = float(74.99)
-quantity = int(3)
-total = float(price * quantity)
+price = 74.99
+quantity = 3
+total = price * quantity
 
 print("===========================")
 print("        RECEIPT     ")
 print("===========================")
 print(f"Item:      {item}")
-print(f"Price:     ${price}")
+print(f"Price:     ${price:.2f}")
 print(f"Quantity:  {quantity}")
 print("---------------------------")
 print(f"Total:     ${total:.2f}")
